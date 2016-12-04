@@ -1,0 +1,26 @@
+body {
+  color: white;
+  background-color: black;
+  font-size: 1.6em;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+img {
+  height: 400px;
+  width: 600px;
+  background-size: cover;
+  background-position: top;
+  margin-top: 1em;
+}
+
+#options {
+  text-align: center;
+}
+
+button {
+  margin-left: 10px;
+  margin-top: 15px;
+  height: 22px;
+  font-size: 14px;
+}
