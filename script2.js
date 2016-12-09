@@ -22,9 +22,9 @@ var changeButtons = function(buttonList) {
 };
 
 var advanceTo = function(s) {
-  changeImage(s.image)
-  changeText(s.text)
-  changeButtons(s.buttons)
+  changeImage(s.image);
+  changeText(s.text);
+  changeButtons(s.buttons);
 };
 
 var inventory = [];
@@ -48,7 +48,7 @@ function key() {
 
 function check() {
 for (var i=0; i < inventory.length; i++) {
- if (inventory[i] === Rags ){
+ if (inventory[i] === "Rags" ){
    alert("yo");
     }
   }
@@ -59,7 +59,7 @@ for (var i=0; i < inventory.length; i++) {
   document.write("Go to hell.");
 }*/
 
-scenario = {}
+scenario = {};
 var scenario = {
   one: {
     image: "http://www.kethea.gr/Portals/0/Uploads/News/Images/DSC07099.JPG", //Central Room
@@ -101,4 +101,4 @@ var scenario = {
 
 
 check();
-advanceTo(scenario.one)
+advanceTo(scenario.one);
