@@ -78,7 +78,7 @@ var scenario = {
   },
   four: {
     image: "http://kissmylist.com/wp-content/uploads/2013/07/Alcatraz-hospital.jpg",
-    text: "You have ended up in the Medical Room",
+    text: "You have ended up in the Medical Room, there were many a time you had to take a trip here when you first joined your lovely prisonmates.",
     buttons: [["Pick Up Rags.", "rag()"],["Go back.", "advanceTo(scenario.two)"]]
   },
   five: {
@@ -88,12 +88,12 @@ var scenario = {
   },
   six: {
     image: "https://c1.staticflickr.com/5/4074/4891966733_04d3b63b83_b.jpg",
-    text: "You have ended up in the showers",
+    text: "You have ended up in the showers, there are many unpleasant memories associated with this place best get out of here before it overwhelms you.",
     buttons: [["Go back", "advanceTo(scenario.three)"]]
   },
   seven: {
     image: "http://www.david-roberts-photography-blog.co.uk/wp-content/uploads/2013/05/ferodo-9171.jpg",
-    text: "You have ended up in the offices.",
+    text: "You have ended up in the offices of the warden. The one person in the whole prison who ought to have been in jail. You had heard rumors about him of how he used the inmates. You didn't believe them until you were called down one day. Fortunately some of the other inmates heard about it and decided to take revenge.Curious that you still remember where he kept the key.",
     buttons: [["Pick up the keys","key()"],["Go back","advanceTo(scenario.three)"]]
   }
   
