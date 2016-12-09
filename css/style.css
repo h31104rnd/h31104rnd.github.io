@@ -34,12 +34,27 @@ button{
   border: 5px solid white;
   padding: 10px;
   display: inline-block;
-  width:;
-  
+  width: 605px;
 }
 
 #items{
   padding:10px;
   border:3px solid white;
   color:white;
+}
+
+#health {
+  border: 2px solid white;
+}
+
+#health-text {
+  font-size: 20px;
+  color: white;
+}
+
+#keyButton {
+  display: none;
+  margin-left: 10px;
+  font-size: 14px;
+  background-color: 2A833E;
 }
