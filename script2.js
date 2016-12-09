@@ -22,9 +22,9 @@ var changeButtons = function(buttonList) {
 };
 
 var advanceTo = function(s) {
-  changeImage(s.image);
-  changeText(s.text);
-  changeButtons(s.buttons);
+  changeImage(s.image)
+  changeText(s.text)
+  changeButtons(s.buttons)
 }
 
 var inventory = [];
