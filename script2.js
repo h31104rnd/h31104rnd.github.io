@@ -114,6 +114,6 @@ var scenario = {
 };
 
 
-advanceTo(scenario.one);
+advanceTo(scenario.one)
 
 
